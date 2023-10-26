@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f2f2;
+}
+
+/* ------------- GLOBAL CSS ------------- */
+:root {
+  --bgc: #202020;
+  --textc: white;
+  --hoverc: red;
+  --elempad: 15px 0;
+  --elemmar: 0 15px;
+}
+
+/* ------------- HEADER CSS ------------- */
+
+.header__nav {
+  background-color: var(--bgc);
+  width: 100%;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__li {
+  list-style: none;
+  padding: var(--elempad);
+  margin: var(--elemmar);
+}
+
+.header__a {
+  text-decoration: none;
+  color: var(--textc);
+}
+
+.header__a:hover {
+  color: var(--hoverc);
+  font-weight: 550;
+}
+
+/* ------------- FOOTER CSS ------------- */
+
+.footer__div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bgc);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.footer__p {
+  padding: var(--elempad);
+  margin: var(--elemmar);
+  color: var(--textc);
+}
